@@ -1,0 +1,90 @@
+﻿Log file open, 01/17/16 20:26:33
+LogInit:Display: Running engine for game: Wayfarer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(233550601) SRandInit(233550604).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 2.922706
+LogConfig:Warning: Failed to saved backup for config[Game]
+LogConfig:Warning: Failed to saved backup for config[Input]
+LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorSettings]
+LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
+[2016.01.18-03.26.34:747][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.18-03.26.34:747][  0]LogInit: API Version: 2758231
+[2016.01.18-03.26.34:747][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.18-03.26.34:747][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.18-03.26.34:747][  0]LogInit: Build Configuration: Development
+[2016.01.18-03.26.34:747][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.18-03.26.34:747][  0]LogInit: Command line: 
+[2016.01.18-03.26.34:747][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.18-03.26.34:747][  0]LogInit: Rocket: 1
+[2016.01.18-03.26.34:799][  0]LogFileManager:Warning: Error deleting file: ../../../../../Unreal Projects/Wayfarer/Saved/Logs/Wayfarer-backup-2016.01.08-21.48.51.log (Error Code 0)
+[2016.01.18-03.26.34:858][  0]LogFileManager:Warning: Error deleting file: ../../../../../Unreal Projects/Wayfarer/Saved/Logs/Wayfarer-backup-2016.01.11-10.03.08.log (Error Code 0)
+[2016.01.18-03.26.35:220][  0]LogInit: Using libcurl 7.41.0
+[2016.01.18-03.26.35:220][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.18-03.26.35:220][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.18-03.26.35:220][  0]LogInit:  - other features:
+[2016.01.18-03.26.35:220][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.18-03.26.35:220][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.18-03.26.35:231][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.18-03.26.35:231][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.18-03.26.35:231][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.18-03.26.35:232][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.18-03.26.35:232][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.18-03.26.35:232][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.18-03.26.35:232][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.18-03.26.35:232][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.18-03.26.35:580][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.18-03.26.36:019][  0]LogInit: Object subsystem initialized
+[2016.01.18-03.26.36:283][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.18-03.26.36:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.18-03.26.36:362][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2016.01.18-03.26.36:494][  0]LogInit: Computer: DESKTOP-D4B59PR
+[2016.01.18-03.26.36:494][  0]LogInit: User: Dzshiftt
+[2016.01.18-03.26.36:494][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.18-03.26.36:494][  0]LogInit: High frequency timer resolution =3.417995 MHz
+[2016.01.18-03.26.36:515][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.18-03.26.36:515][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.18-03.26.36:515][  0]LogMemory: Process Physical Memory: 55.83 MB used, 55.83 MB peak
+[2016.01.18-03.26.36:515][  0]LogMemory: Process Virtual Memory: 56.70 MB used, 56.70 MB peak
+[2016.01.18-03.26.36:515][  0]LogMemory: Physical Memory: 2621.27 MB used, 8140.04 MB total
+[2016.01.18-03.26.36:515][  0]LogMemory: Virtual Memory: 378.59 MB used, 134217728.00 MB total
+[2016.01.18-03.26.37:829][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.18-03.26.39:490][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 380 Series (Feature Level 11_0)
+[2016.01.18-03.26.39:490][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 1 output[s]
+[2016.01.18-03.26.39:494][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.18-03.26.39:494][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 0 output[s]
+[2016.01.18-03.26.39:494][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.18-03.26.39:511][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.18-03.26.39:512][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.18-03.26.39:554][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.18-03.26.39:941][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../Unreal Projects/Wayfarer/Intermediate/Shaders/WorkingDirectory/2976/).
+[2016.01.18-03.26.39:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dzshiftt/AppData/Local/Temp/UnrealShaderWorkingDir/6FB6E5164E25FBCF91602C92DB2B3834/'.
+[2016.01.18-03.26.39:942][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.18-03.26.43:228][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.18-03.26.43:237][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.18-03.26.43:245][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.18-03.26.43:254][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.18-03.26.43:263][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.18-03.26.43:271][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.18-03.26.43:287][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.18-03.26.43:293][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.18-03.26.43:298][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.18-03.26.43:304][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.18-03.26.43:335][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.18-03.26.43:376][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.18-03.26.43:377][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.18-03.26.43:378][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.18-03.26.43:475][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.18-03.26.43:492][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.18-03.26.43:516][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.18-03.26.43:547][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.18-03.26.43:547][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.18-03.26.44:752][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.18-03.26.44:752][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2016.01.18-03.26.44:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.18-03.26.44:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.18-03.26.44:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.18-03.26.44:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.18-03.26.44:907][  0]LogDerivedDataCache:Display: Pak cache opened

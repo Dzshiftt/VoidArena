@@ -1,0 +1,657 @@
+﻿[2016.01.20-05.59.55:552][  0]Log file open, 01/19/16 22:59:55
+[2016.01.20-05.59.55:552][  0]LogInit:Display: Running engine for game: Wayfarer
+[2016.01.20-05.59.55:552][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.20-05.59.55:552][  0]LogInit:Display: RandInit(-802278233) SRandInit(-802278232).
+[2016.01.20-05.59.55:552][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.20-05.59.55:552][  0]LogStats: Stats thread started at 0.100298
+[2016.01.20-05.59.55:552][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.20-05.59.55:552][  0]LogInit: API Version: 2758231
+[2016.01.20-05.59.55:552][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.20-05.59.55:552][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.20-05.59.55:552][  0]LogInit: Build Configuration: Development
+[2016.01.20-05.59.55:552][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.20-05.59.55:552][  0]LogInit: Command line: 
+[2016.01.20-05.59.55:552][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.20-05.59.55:552][  0]LogInit: Rocket: 1
+[2016.01.20-05.59.55:577][  0]LogInit: Using libcurl 7.41.0
+[2016.01.20-05.59.55:577][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.20-05.59.55:577][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.20-05.59.55:577][  0]LogInit:  - other features:
+[2016.01.20-05.59.55:577][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.20-05.59.55:577][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.20-05.59.55:577][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.20-05.59.55:577][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.20-05.59.55:577][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.20-05.59.55:577][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.20-05.59.55:577][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.20-05.59.55:577][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.20-05.59.55:577][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.20-05.59.55:577][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.20-05.59.55:587][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.20-05.59.55:596][  0]LogInit: Object subsystem initialized
+[2016.01.20-05.59.55:597][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.20-05.59.55:597][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.20-05.59.55:623][  0]LogInit: Computer: DESKTOP-D4B59PR
+[2016.01.20-05.59.55:623][  0]LogInit: User: Dzshiftt
+[2016.01.20-05.59.55:623][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.20-05.59.55:623][  0]LogInit: High frequency timer resolution =3.417995 MHz
+[2016.01.20-05.59.55:623][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.20-05.59.55:623][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.20-05.59.55:623][  0]LogMemory: Process Physical Memory: 56.02 MB used, 56.02 MB peak
+[2016.01.20-05.59.55:624][  0]LogMemory: Process Virtual Memory: 56.93 MB used, 56.93 MB peak
+[2016.01.20-05.59.55:624][  0]LogMemory: Physical Memory: 2375.99 MB used, 8140.04 MB total
+[2016.01.20-05.59.55:624][  0]LogMemory: Virtual Memory: 379.59 MB used, 134217728.00 MB total
+[2016.01.20-05.59.55:657][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.20-05.59.56:230][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 380 Series (Feature Level 11_0)
+[2016.01.20-05.59.56:230][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 1 output[s]
+[2016.01.20-05.59.56:232][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.20-05.59.56:233][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 0 output[s]
+[2016.01.20-05.59.56:233][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.20-05.59.56:238][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.20-05.59.56:238][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.20-05.59.56:257][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.20-05.59.56:269][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Unreal Projects/Wayfarer/Intermediate/Shaders/WorkingDirectory/832/).
+[2016.01.20-05.59.56:270][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dzshiftt/AppData/Local/Temp/UnrealShaderWorkingDir/9A6656C5412659A9EB6D368586AD712F/'.
+[2016.01.20-05.59.56:270][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.20-05.59.57:296][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.20-05.59.57:302][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.20-05.59.57:309][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.20-05.59.57:315][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.20-05.59.57:320][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.20-05.59.57:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.20-05.59.57:327][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.20-05.59.57:330][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.20-05.59.57:334][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.20-05.59.57:338][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.20-05.59.57:342][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.20-05.59.57:349][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.20-05.59.57:349][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.20-05.59.57:350][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.20-05.59.57:368][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.20-05.59.57:372][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.20-05.59.57:375][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.20-05.59.57:379][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.20-05.59.57:379][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.20-05.59.57:488][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache: Loaded boot cache 0.12s 69MB C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.20-05.59.57:608][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.20-05.59.57:685][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.20-05.59.57:697][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dzshiftt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.20-05.59.57:934][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.20-05.59.57:937][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.20-05.59.58:092][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.20-05.59.58:093][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.20-05.59.58:423][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.20-05.59.59:352][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.20-05.59.59:455][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.01.20-05.59.59:644][  0]SourceControl: Info Source control is disabled
+[2016.01.20-05.59.59:645][  0]SourceControl: Info Source control is disabled
+[2016.01.20-05.59.59:658][  0]SourceControl: Info Source control is disabled
+[2016.01.20-05.59.59:671][  0]SourceControl: Info Source control is disabled
+[2016.01.20-05.59.59:966][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.20-05.59.59:966][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.20-06.00.00:038][  0]LogEngine: Initializing Engine...
+[2016.01.20-06.00.00:040][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.20-06.00.00:041][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.20-06.00.00:211][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.20-06.00.00:217][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.20-06.00.00:227][  0]LogInit: FAudioDevice initialized.
+[2016.01.20-06.00.00:278][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.20-06.00.00:297][  0]LogInit: Texture streaming: Enabled
+[2016.01.20-06.00.00:305][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.20-06.00.00:305][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.20-06.00.00:305][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d7e8d415469c53732bb00cb8e6f11f39|73d82322a7c548e3bff0f196fe589cb3|3fab6c02-6e8d-4e3a-92bc-ec38873d9ff2
+[2016.01.20-06.00.00:305][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.20-06.00.00:352][  0]LogInit: Transaction tracking system initialized
+[2016.01.20-06.00.00:386][  0]BlueprintLog: New page: Editor Load
+[2016.01.20-06.00.00:483][  0]LocalizationService: Info Localization service is disabled
+[2016.01.20-06.00.00:570][  0]LogConsoleResponse:Display: 
+[2016.01.20-06.00.00:963][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/' took 0.04s
+[2016.01.20-06.00.00:963][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.20-06.00.01:080][  0]SourceControl: Info Source control is disabled
+[2016.01.20-06.00.01:080][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Wayfarer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.20-06.00.01:351][  0]LightingResults: New page: Lighting Build
+[2016.01.20-06.00.01:355][  0]MapCheck: New page: Map Check
+[2016.01.20-06.00.01:355][  0]LightingResults: New page: Lighting Build
+[2016.01.20-06.00.01:371][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D1FE52AC0
+[2016.01.20-06.00.05:581][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.20-06.00.05:841][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.20-06.00.05:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.20-06.00.05:926][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.294ms to complete.
+[2016.01.20-06.00.05:926][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.846
+[2016.01.20-06.00.07:040][  0]LogCollectionManager: Loaded 0 collections in 0.002492 seconds
+[2016.01.20-06.00.07:266][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Saved/Collections/' took 0.01s
+[2016.01.20-06.00.07:266][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/Developers/Dzshiftt/Collections/' took 0.01s
+[2016.01.20-06.00.07:266][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/Collections/' took 0.01s
+[2016.01.20-06.00.07:266][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.20-06.00.07:279][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 1893 classes and 338 folders.
+[2016.01.20-06.00.07:421][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.01.20-06.00.10:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.20-06.00.10:857][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.01.20-06.00.11:630][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.20-06.00.11:824][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.20-06.00.11:879][  0]LogLoad: Full Startup: 17.23 seconds (BP compile: 0.49 seconds)
+[2016.01.20-06.00.11:890][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.20-06.00.12:541][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.20-06.00.13:564][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.01.20-06.00.14:290][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.20-06.00.14:553][  5]LogAssetRegistry: Asset discovery search completed in 15.1094 seconds
+[2016.01.20-06.00.14:554][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2016.01.20-06.00.20:308][409]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.20-06.00.20:337][409]LightingResults: New page: Lighting Build
+[2016.01.20-06.00.20:355][409]LoadErrors: New page: Loading map: Desert.umap
+[2016.01.20-06.00.20:361][409]MapCheck: New page: Map Check
+[2016.01.20-06.00.20:361][409]LightingResults: New page: Lighting Build
+[2016.01.20-06.00.20:378][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D13561260
+[2016.01.20-06.00.21:463][409]LogAIModule: Creating AISystem for world Desert
+[2016.01.20-06.00.21:561][409]LogMaterial:Warning: Material /Game/Materials/Cube1_auv5.Cube1_auv5 needed to have new flag set bUsedWithStaticLighting !
+[2016.01.20-06.00.21:568][409]LogMaterial: Missing cached shader map for material Cube1_auv5, compiling. 
+[2016.01.20-06.00.21:699][409]MapCheck:Warning: Warning Cube1_auv5 Material /Game/Materials/Cube1_auv5.Cube1_auv5 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.01.20-06.00.21:822][409]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.20-06.00.21:822][409]LogMaterial:Warning: Material /Game/Materials/Cube1_sep3_auv.Cube1_sep3_auv needed to have new flag set bUsedWithStaticLighting !
+[2016.01.20-06.00.21:831][409]LogMaterial: Missing cached shader map for material Cube1_sep3_auv, compiling. 
+[2016.01.20-06.00.21:840][409]MapCheck:Warning: Warning Cube1_sep3_auv Material /Game/Materials/Cube1_sep3_auv.Cube1_sep3_auv was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.01.20-06.00.21:841][409]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.20-06.00.22:124][409]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.20-06.00.22:176][409]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.20-06.00.22:269][409]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 92.747ms to complete.
+[2016.01.20-06.00.22:310][409]LogFileHelpers: Loading map 'Desert' took 2.004
+[2016.01.20-06.00.22:437][410]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.20-06.00.31:986][160]MapCheck: New page: Map Check
+[2016.01.20-06.00.32:185][160]Cmd: MAP REBUILD ALLVISIBLE
+[2016.01.20-06.00.32:193][160]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.01.20-06.00.32:506][160]LightingResults: New page: Lighting Build - Jan 19, 2016, 4:00:32 PM
+[2016.01.20-06.00.36:156][160]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2016.01.20-06.00.36:173][160]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.01.20-06.00.36:173][160]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.01.20-06.00.36:173][160]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.01.20-06.00.36:173][160]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.01.20-06.00.36:173][160]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.01.20-06.00.36:360][160]LogEditorBuildUtils: Build time 0:00:04
+[2016.01.20-06.00.36:417][161]Cmd: UpdateLandscapeEditorData
+[2016.01.20-06.00.57:619][861]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.00.57:619][861]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.00.58:123][876]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.00.58:123][876]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.00.58:123][876]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.00.58:123][876]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.00.58:452][877]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.00.58:452][877]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.02:453][889]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.01.02:453][889]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.18:787][938]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.18:787][938]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.20:454][943]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.20:454][943]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.34:191][839]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.34:192][839]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.36:591][ 65]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.36:591][ 65]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.37:437][143]LightingResults:Error: Error Speeder Object has overlapping UVs.
+[2016.01.20-06.01.37:437][143]LightingResults: Info Speeder Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.37:537][152]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.20-06.01.37:537][152]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.37:820][179]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.37:820][179]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.37:981][194]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.20-06.01.37:981][194]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.20-06.01.47:047][ 41]Job is a success!
+[2016.01.20-06.01.47:589][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.01.20-06.01.48:116][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.01.20-06.01.48:116][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.01.20-06.01.48:117][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.01.20-06.01.48:141][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.01.20-06.01.48:192][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.01.20-06.01.48:247][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.01.20-06.01.48:335][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.01.20-06.01.48:345][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.01.20-06.01.48:360][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.01.20-06.01.48:370][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.01.20-06.01.48:386][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.01.20-06.01.48:396][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.01.20-06.01.48:413][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.01.20-06.01.48:422][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.01.20-06.01.48:438][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.01.20-06.01.48:448][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.01.20-06.01.48:463][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.01.20-06.01.48:473][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.01.20-06.01.48:489][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.01.20-06.01.48:499][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.01.20-06.01.48:514][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.01.20-06.01.48:524][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.01.20-06.01.48:541][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.01.20-06.01.48:551][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.01.20-06.01.48:565][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.01.20-06.01.48:575][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.01.20-06.01.48:593][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.01.20-06.01.48:603][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.01.20-06.01.48:618][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.01.20-06.01.48:628][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.01.20-06.01.48:644][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.01.20-06.01.48:652][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.01.20-06.01.48:670][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.01.20-06.01.48:681][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.01.20-06.01.48:704][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.01.20-06.01.48:720][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.01.20-06.01.48:742][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.01.20-06.01.48:750][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.01.20-06.01.48:766][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.01.20-06.01.48:791][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.01.20-06.01.48:822][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.01.20-06.01.48:839][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.01.20-06.01.48:856][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.01.20-06.01.48:870][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.01.20-06.01.48:887][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.01.20-06.01.48:903][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.01.20-06.01.48:920][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.01.20-06.01.48:939][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.01.20-06.01.48:957][ 42]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.01.20-06.01.48:979][ 42]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.01.20-06.01.49:023][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.01.20-06.01.49:044][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.01.20-06.01.49:062][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.01.20-06.01.49:077][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.01.20-06.01.49:096][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.01.20-06.01.49:109][ 42]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.01.20-06.01.49:131][ 42]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.01.20-06.01.49:439][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2016.01.20-06.01.49:446][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2016.01.20-06.01.49:450][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8)
+[2016.01.20-06.01.49:471][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8)
+[2016.01.20-06.01.49:477][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8)
+[2016.01.20-06.01.49:482][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8)
+[2016.01.20-06.01.49:486][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8)
+[2016.01.20-06.01.49:492][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8)
+[2016.01.20-06.01.49:496][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8)
+[2016.01.20-06.01.49:503][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8)
+[2016.01.20-06.01.49:507][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8)
+[2016.01.20-06.01.49:513][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8)
+[2016.01.20-06.01.49:517][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8)
+[2016.01.20-06.01.49:522][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8)
+[2016.01.20-06.01.49:528][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8)
+[2016.01.20-06.01.49:531][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8)
+[2016.01.20-06.01.49:535][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8)
+[2016.01.20-06.01.49:542][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8)
+[2016.01.20-06.01.49:545][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8)
+[2016.01.20-06.01.49:550][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8)
+[2016.01.20-06.01.49:556][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8)
+[2016.01.20-06.01.49:559][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8)
+[2016.01.20-06.01.49:563][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8)
+[2016.01.20-06.01.49:567][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8)
+[2016.01.20-06.01.49:570][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8)
+[2016.01.20-06.01.49:582][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8)
+[2016.01.20-06.01.49:595][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8)
+[2016.01.20-06.01.49:598][ 42]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8)
+[2016.01.20-06.01.49:646][ 42]Lightmass on DESKTOP-D4B59PR: 1:11 min total, 383 ms importing, 316 ms setup, 12.6 sec photons, 58.5 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 6:49 min total, 5:25 min processing.
+[2016.01.20-06.01.49:691][ 42]LogStaticLightingSystem: Illumination: 1:17 min (2.22 sec encoding lightmaps)
+[2016.01.20-06.01.49:692][ 42]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 58 textures
+[2016.01.20-06.01.49:692][ 42]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 28 textures
+[2016.01.20-06.01.50:208][ 43]Cmd: UpdateLandscapeEditorData
+[2016.01.20-06.01.50:209][ 43]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.01.20-06.01.50:209][ 43]MapCheck: New page: Desert - Jan 19, 2016, 4:01:50 PM
+[2016.01.20-06.01.50:273][ 43]MapCheck:Error: Error Blade_X12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:273][ 43]MapCheck:Warning: Warning Blade_X12 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:275][ 43]MapCheck:Warning: Warning Blade_X12 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:275][ 43]MapCheck:Error: Error Blade_X11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:275][ 43]MapCheck:Warning: Warning Blade_X11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Warning: Warning Blade_X11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Error: Error Blade_X10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Warning: Warning Blade_X10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Warning: Warning Blade_X10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Error: Error AR_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Warning: Warning AR_4 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:276][ 43]MapCheck:Warning: Warning AR_4 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:330][ 43]MapCheck:Error: Error AR3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:330][ 43]MapCheck:Warning: Warning AR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:330][ 43]MapCheck:Warning: Warning AR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:330][ 43]MapCheck:Error: Error AR2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Warning: Warning AR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Warning: Warning AR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Warning: Warning Blade_X13 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Warning: Warning Blade_X14 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Warning: Warning Blade_X15 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:331][ 43]MapCheck:Error: Error Blade_X2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Warning: Warning Blade_X2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Warning: Warning Blade_X2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Error: Error Blade_X3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Warning: Warning Blade_X3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Warning: Warning Blade_X3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:332][ 43]MapCheck:Warning: Warning Blade_X4_17 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Warning: Warning Blade_X5 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Warning: Warning Blade_X6 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Error: Error Blade_X7_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Warning: Warning Blade_X7_16 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Warning: Warning Blade_X7_16 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Error: Error Blade_X8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:333][ 43]MapCheck:Warning: Warning Blade_X8 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Warning: Warning Blade_X8 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Error: Error Blade_X9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Warning: Warning Blade_X9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Warning: Warning Blade_X9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Error: Error Blade_X_21 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Warning: Warning Blade_X_21 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:334][ 43]MapCheck:Warning: Warning Blade_X_21 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Error: Error Crystal_11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Warning: Warning Crystal_11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Warning: Warning Crystal_11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Error: Error Gladius10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Warning: Warning Gladius10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Warning: Warning Gladius10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:335][ 43]MapCheck:Error: Error Gladius11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Warning: Warning Gladius11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Warning: Warning Gladius11 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Error: Error Gladius12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Warning: Warning Gladius12 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Warning: Warning Gladius12 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Error: Error Gladius13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:336][ 43]MapCheck:Warning: Warning Gladius13 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Warning: Warning Gladius13 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Error: Error Gladius2_18 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Warning: Warning Gladius2_18 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Warning: Warning Gladius2_18 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Error: Error Gladius3_13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Warning: Warning Gladius3_13 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:337][ 43]MapCheck:Warning: Warning Gladius3_13 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Error: Error Gladius4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Warning: Warning Gladius4 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Warning: Warning Gladius4 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Error: Error Gladius5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Warning: Warning Gladius5 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Warning: Warning Gladius5 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Error: Error Gladius8_28 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:338][ 43]MapCheck:Warning: Warning Gladius8_28 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Warning: Warning Gladius8_28 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Error: Error Gladius9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Warning: Warning Gladius9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Warning: Warning Gladius9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Error: Error Gladius_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Warning: Warning Gladius_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:339][ 43]MapCheck:Warning: Warning Gladius_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Error: Error Glaive2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Warning: Warning Glaive2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Warning: Warning Glaive2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Error: Error Glaive3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Warning: Warning Glaive3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Warning: Warning Glaive3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:340][ 43]MapCheck:Error: Error Glaive4_24 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive4_24 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive4_24 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Error: Error Glaive5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive5 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive5 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Error: Error Glaive6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive6 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:341][ 43]MapCheck:Warning: Warning Glaive6 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Error: Error Glaive7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Warning: Warning Glaive7 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Warning: Warning Glaive7 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Error: Error Glaive8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Warning: Warning Glaive8 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Warning: Warning Glaive8 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:342][ 43]MapCheck:Error: Error Glaive9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Warning: Warning Glaive9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Warning: Warning Glaive9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Error: Error Glaive_19 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Warning: Warning Glaive_19 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Warning: Warning Glaive_19 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:343][ 43]MapCheck:Warning: Warning House_Dome_31 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'House_Dome' 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Error: Error MAt_Test_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Warning: Warning MAt_Test_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Warning: Warning MAt_Test_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Error: Error pistol2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Warning: Warning pistol2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Warning: Warning pistol2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Error: Error pistol3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:344][ 43]MapCheck:Warning: Warning pistol3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Warning: Warning pistol3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Error: Error pistol_9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Warning: Warning pistol_9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Warning: Warning pistol_9 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Error: Error SR2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Warning: Warning SR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:345][ 43]MapCheck:Warning: Warning SR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Error: Error SR3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Warning: Warning SR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Warning: Warning SR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Error: Error SR_14 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Warning: Warning SR_14 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:346][ 43]MapCheck:Warning: Warning SR_14 Static mesh actor has NULL StaticMesh property 
+[2016.01.20-06.01.50:439][ 43]MapCheck: Info Map check complete: 40 Error(s), 87 Warning(s), took 229.766ms to complete.
+[2016.01.20-06.02.08:223][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.20-06.02.08:225][840]PIE: New page: PIE session: Desert (Jan 19, 2016, 4:02:08 PM)
+[2016.01.20-06.02.08:225][840]LogPlayLevel: Creating play world package: /Game/Collections/UEDPIE_0_Desert
+[2016.01.20-06.02.08:266][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041184s)
+[2016.01.20-06.02.08:267][840]LogAIModule: Creating AISystem for world Desert
+[2016.01.20-06.02.08:267][840]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2016.01.20-06.02.08:284][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Collections/Desert.Desert to /Game/Collections/UEDPIE_0_Desert.Desert (0.058968s)
+[2016.01.20-06.02.08:333][840]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.20-06.02.08:341][840]LogInit: FAudioDevice initialized.
+[2016.01.20-06.02.08:537][840]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.20-06.02.08:669][840]LogWorld: Bringing World /Game/Collections/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2016.01.19-23.02.08
+[2016.01.20-06.02.08:669][840]LogActor:Warning: GameSession /Game/Collections/UEDPIE_0_Desert.Desert:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.20-06.02.08:670][840]LogActor:Warning: GameNetworkManager /Game/Collections/UEDPIE_0_Desert.Desert:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.20-06.02.08:678][840]LogWorld: Bringing up level for play took: 0.027984
+[2016.01.20-06.02.08:921][840]PIE: Info Play in editor start time for /Game/Collections/UEDPIE_0_Desert 0.782
+[2016.01.20-06.02.46:904][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D13BF0900
+[2016.01.20-06.02.50:591][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/Desert" FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.20-06.02.51:655][181]LogSavePackage: Save=596.513733ms
+[2016.01.20-06.02.51:655][181]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/DesertC0A731C746C81B1A2BEFC2B43117F6AF.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap'
+[2016.01.20-06.02.51:675][181]LogSavePackage: Total save time: 1034.369566ms
+[2016.01.20-06.02.51:675][181]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap
+[2016.01.20-06.02.51:742][181]LogFileHelpers: Saving map 'Desert' took 1.265
+[2016.01.20-06.02.51:902][181]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.20-06.02.52:453][182]Cmd: QUIT_EDITOR
+[2016.01.20-06.02.53:404][182]LogExit: Preparing to exit.
+[2016.01.20-06.02.54:542][182]LogExit: Editor shut down
+[2016.01.20-06.02.54:542][182]LogExit: Transaction tracking system shut down
+[2016.01.20-06.02.54:546][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D180D28E0
+[2016.01.20-06.02.54:547][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D2D607880
+[2016.01.20-06.02.54:547][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001D3A890A40
+[2016.01.20-06.02.54:726][182]LogExit: Object subsystem successfully closed.
+[2016.01.20-06.02.54:747][182]LogD3D11RHI: Shutdown
+[2016.01.20-06.02.54:747][182]LogD3D11RHI: CleanupD3DDevice
+[2016.01.20-06.02.54:956][182]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.20-06.02.54:971][182]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.01.20-06.02.54:971][182]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.20-06.02.54:971][182]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.20-06.02.54:971][182]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.20-06.02.54:971][182]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.20-06.02.54:981][182]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.20-06.02.54:990][182]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.20-06.02.54:991][182]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.20-06.02.55:575][182]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.20-06.02.55:575][182]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.20-06.02.55:576][182]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.20-06.02.55:577][182]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.20-06.02.55:578][182]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.20-06.02.55:579][182]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.20-06.02.55:596][182]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.20-06.02.55:618][182]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.20-06.02.55:627][182]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.20-06.02.55:628][182]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.20-06.02.55:629][182]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.20-06.02.55:630][182]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.20-06.02.55:714][182]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.20-06.02.55:714][182]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.20-06.02.55:715][182]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.20-06.02.55:816][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.20-06.02.55:816][182]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.20-06.02.55:816][182]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.20-06.02.55:825][182]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.20-06.02.55:826][182]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.20-06.02.55:831][182]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.20-06.02.55:907][182]LogDerivedDataCache: Shutdown
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.20-06.02.55:907][182]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.20-06.02.55:908][182]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.20-06.02.57:911][182]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.20-06.02.57:914][182]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.20-06.02.57:917][182]LogExit: Exiting.
+[2016.01.20-06.02.57:919][182]Log file closed, 01/19/16 23:02:57

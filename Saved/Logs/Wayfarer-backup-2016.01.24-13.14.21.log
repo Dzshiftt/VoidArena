@@ -1,0 +1,1005 @@
+﻿[2016.01.23-03.16.28:642][  0]Log file open, 01/22/16 20:16:28
+[2016.01.23-03.16.28:642][  0]LogInit:Display: Running engine for game: Wayfarer
+[2016.01.23-03.16.28:643][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.23-03.16.28:643][  0]LogInit:Display: RandInit(305138287) SRandInit(305138288).
+[2016.01.23-03.16.28:643][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.23-03.16.28:643][  0]LogStats: Stats thread started at 0.581408
+[2016.01.23-03.16.28:643][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.23-03.16.28:643][  0]LogInit: API Version: 2758231
+[2016.01.23-03.16.28:643][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.23-03.16.28:643][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.23-03.16.28:643][  0]LogInit: Build Configuration: Development
+[2016.01.23-03.16.28:643][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.23-03.16.28:643][  0]LogInit: Command line:  
+[2016.01.23-03.16.28:643][  0]LogInit: Base directory: D:/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.23-03.16.28:643][  0]LogInit: Rocket: 1
+[2016.01.23-03.16.28:731][  0]LogInit: Using libcurl 7.41.0
+[2016.01.23-03.16.28:731][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.23-03.16.28:731][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.23-03.16.28:731][  0]LogInit:  - other features:
+[2016.01.23-03.16.28:731][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.23-03.16.28:731][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.23-03.16.28:731][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.23-03.16.28:731][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.23-03.16.28:731][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.23-03.16.28:731][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.23-03.16.28:731][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.23-03.16.28:731][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.23-03.16.28:731][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.23-03.16.28:731][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.23-03.16.28:800][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.23-03.16.28:809][  0]LogInit: Object subsystem initialized
+[2016.01.23-03.16.28:810][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-03.16.28:810][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.23-03.16.28:865][  0]LogInit: Computer: DESKTOP-D4B59PR
+[2016.01.23-03.16.28:865][  0]LogInit: User: Dzshiftt
+[2016.01.23-03.16.28:865][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.23-03.16.28:865][  0]LogInit: High frequency timer resolution =3.418001 MHz
+[2016.01.23-03.16.28:865][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.23-03.16.28:865][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.23-03.16.28:865][  0]LogMemory: Process Physical Memory: 57.44 MB used, 57.44 MB peak
+[2016.01.23-03.16.28:865][  0]LogMemory: Process Virtual Memory: 58.68 MB used, 58.68 MB peak
+[2016.01.23-03.16.28:865][  0]LogMemory: Physical Memory: 2168.88 MB used, 8140.04 MB total
+[2016.01.23-03.16.28:865][  0]LogMemory: Virtual Memory: 380.99 MB used, 134217728.00 MB total
+[2016.01.23-03.16.29:276][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.23-03.16.29:911][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon (TM) R9 380 Series (Feature Level 11_0)
+[2016.01.23-03.16.29:911][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 1 output[s]
+[2016.01.23-03.16.29:914][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.23-03.16.29:914][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 0 output[s]
+[2016.01.23-03.16.29:914][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.23-03.16.29:918][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.23-03.16.29:918][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.23-03.16.29:936][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.23-03.16.29:948][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../Unreal Projects/Wayfarer/Intermediate/Shaders/WorkingDirectory/5112/).
+[2016.01.23-03.16.29:948][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dzshiftt/AppData/Local/Temp/UnrealShaderWorkingDir/E60099A84C5293E703AC838EA10996ED/'.
+[2016.01.23-03.16.29:948][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.23-03.16.32:555][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.23-03.16.32:561][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.23-03.16.32:567][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.23-03.16.32:573][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.23-03.16.32:579][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.23-03.16.32:585][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.23-03.16.32:589][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.23-03.16.32:593][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.23-03.16.32:597][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.23-03.16.32:602][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.23-03.16.32:606][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.23-03.16.32:615][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.23-03.16.32:615][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.23-03.16.32:616][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.23-03.16.32:697][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.23-03.16.32:701][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.23-03.16.32:705][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.23-03.16.32:713][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.23-03.16.32:713][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.23-03.16.33:649][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache: Loaded boot cache 0.32s 41MB C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Wayfarer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.23-03.16.33:973][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.23-03.16.34:108][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.23-03.16.34:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dzshiftt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.23-03.16.43:751][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.23-03.16.43:832][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.23-03.16.45:458][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.23-03.16.45:458][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.23-03.16.48:954][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.23-03.17.00:576][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.23-03.17.00:999][  0]LogAssetRegistry: FAssetRegistry took 0.0291 seconds to start up
+[2016.01.23-03.17.03:505][  0]SourceControl: Info Source control is disabled
+[2016.01.23-03.17.03:515][  0]SourceControl: Info Source control is disabled
+[2016.01.23-03.17.03:782][  0]SourceControl: Info Source control is disabled
+[2016.01.23-03.17.03:853][  0]SourceControl: Info Source control is disabled
+[2016.01.23-03.17.05:348][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.23-03.17.05:348][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.23-03.17.06:136][  0]LogEngine: Initializing Engine...
+[2016.01.23-03.17.06:191][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.23-03.17.06:249][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.23-03.17.07:382][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.23-03.17.07:536][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-03.17.07:565][  0]LogInit: FAudioDevice initialized.
+[2016.01.23-03.17.07:614][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Dzshiftt/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.23-03.17.07:632][  0]LogInit: Texture streaming: Enabled
+[2016.01.23-03.17.07:691][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.23-03.17.07:708][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.23-03.17.07:708][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d7e8d415469c53732bb00cb8e6f11f39|73d82322a7c548e3bff0f196fe589cb3|3fab6c02-6e8d-4e3a-92bc-ec38873d9ff2
+[2016.01.23-03.17.07:733][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.23-03.17.07:870][  0]LogInit: Transaction tracking system initialized
+[2016.01.23-03.17.08:166][  0]BlueprintLog: New page: Editor Load
+[2016.01.23-03.17.09:703][  0]LocalizationService: Info Localization service is disabled
+[2016.01.23-03.17.10:405][  0]LogConsoleResponse:Display: 
+[2016.01.23-03.17.12:388][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/' took 0.02s
+[2016.01.23-03.17.12:388][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.23-03.17.13:341][  0]SourceControl: Info Source control is disabled
+[2016.01.23-03.17.13:370][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Wayfarer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.23-03.17.13:431][  0]LightingResults: New page: Lighting Build
+[2016.01.23-03.17.13:580][  0]MapCheck: New page: Map Check
+[2016.01.23-03.17.13:580][  0]LightingResults: New page: Lighting Build
+[2016.01.23-03.17.13:876][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F11CF2AC0
+[2016.01.23-03.17.16:583][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.23-03.17.17:098][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.23-03.17.17:134][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.23-03.17.17:210][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.685ms to complete.
+[2016.01.23-03.17.17:210][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.841
+[2016.01.23-03.17.18:813][  0]LogCollectionManager: Loaded 0 collections in 0.003061 seconds
+[2016.01.23-03.17.18:962][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Saved/Collections/' took 0.01s
+[2016.01.23-03.17.18:962][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/Developers/Dzshiftt/Collections/' took 0.01s
+[2016.01.23-03.17.18:962][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/Wayfarer/Content/Collections/' took 0.01s
+[2016.01.23-03.17.18:962][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.01.23-03.17.18:999][  0]LogContentBrowser: Native class hierarchy populated in 0.0359 seconds. Added 1893 classes and 338 folders.
+[2016.01.23-03.17.19:077][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.23-03.17.19:947][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.23-03.17.20:021][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.01.23-03.17.20:539][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.23-03.17.20:667][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.23-03.17.20:766][  0]LogLoad: Full Startup: 54.47 seconds (BP compile: 0.68 seconds)
+[2016.01.23-03.17.20:833][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.23-03.17.21:394][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.23-03.17.22:031][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.01.23-03.17.23:166][  7]LogAssetRegistry: Asset discovery search completed in 22.1796 seconds
+[2016.01.23-03.17.23:204][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.23-03.17.23:204][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.026581 seconds (updated 0 objects)
+[2016.01.23-03.17.40:892][726]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.23-03.17.40:915][726]LightingResults: New page: Lighting Build
+[2016.01.23-03.17.40:933][726]LoadErrors: New page: Loading map: Desert.umap
+[2016.01.23-03.17.40:959][726]MapCheck: New page: Map Check
+[2016.01.23-03.17.40:959][726]LightingResults: New page: Lighting Build
+[2016.01.23-03.17.41:009][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F01A93600
+[2016.01.23-03.17.42:760][726]LogAIModule: Creating AISystem for world Desert
+[2016.01.23-03.17.42:863][726]LogMaterial:Warning: Material /Game/Materials/Cube1_auv5.Cube1_auv5 needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.17.42:866][726]LogMaterial: Missing cached shader map for material Cube1_auv5, compiling. 
+[2016.01.23-03.17.42:940][726]MapCheck:Warning: Warning Cube1_auv5 Material /Game/Materials/Cube1_auv5.Cube1_auv5 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.01.23-03.17.42:967][726]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.17.42:967][726]LogMaterial:Warning: Material /Game/Materials/Cube1_sep3_auv.Cube1_sep3_auv needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.17.42:971][726]LogMaterial: Missing cached shader map for material Cube1_sep3_auv, compiling. 
+[2016.01.23-03.17.42:980][726]MapCheck:Warning: Warning Cube1_sep3_auv Material /Game/Materials/Cube1_sep3_auv.Cube1_sep3_auv was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.01.23-03.17.42:981][726]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.17.43:037][726]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.23-03.17.43:085][726]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.23-03.17.43:179][726]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 93.481ms to complete.
+[2016.01.23-03.17.43:205][726]LogFileHelpers: Loading map 'Desert' took 2.322
+[2016.01.23-03.17.43:467][727]Cmd: UpdateLandscapeEditorData -warnings
+[2016.01.23-03.17.47:049][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House_2)
+[2016.01.23-03.17.51:660][250]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.23-03.18.18:185][260]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../Unreal Projects/Remus.obj)
+[2016.01.23-03.18.18:665][260]LogFbx: Loading FBX Scene from ../../../../../Unreal Projects/Remus.obj
+[2016.01.23-03.18.18:814][260]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.23-03.18.24:833][260]LogFbx: Loading FBX Scene from ../../../../../Unreal Projects/Remus.obj
+[2016.01.23-03.18.24:896][260]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.23-03.18.24:930][260]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv
+[2016.01.23-03.18.25:209][260]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/Cube1_auv.Cube1_auv'
+[2016.01.23-03.18.25:240][260]LogTexture:Display: Building textures: Cube1_auv4 (AutoDXT)
+[2016.01.23-03.18.25:318][260]LogMaterial: Missing cached shader map for material Cube1_auv3, compiling. 
+[2016.01.23-03.18.25:329][260]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv2
+[2016.01.23-03.18.25:340][260]LogLinker:Warning: Can't find file '/Game/Models/Copy_of_Cube1_auv_2'
+[2016.01.23-03.18.25:340][260]LogLinker:Warning: Can't find file '/Game/Models/Copy_of_Cube1_auv_2'
+[2016.01.23-03.18.25:340][260]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/Copy_of_Cube1_auv_2.Copy_of_Cube1_auv_2'
+[2016.01.23-03.18.25:348][260]LogTexture:Display: Building textures: Copy_of_Cube1_auv_2 (AutoDXT)
+[2016.01.23-03.18.25:425][260]LogMaterial: Missing cached shader map for material Cube1_auv5, compiling. 
+[2016.01.23-03.18.25:438][260]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv3
+[2016.01.23-03.18.25:599][260]LogLinker:Warning: Can't find file '/Game/Models/Copy_of_Cube1_auv_3'
+[2016.01.23-03.18.25:599][260]LogLinker:Warning: Can't find file '/Game/Models/Copy_of_Cube1_auv_3'
+[2016.01.23-03.18.25:599][260]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/Copy_of_Cube1_auv_3.Copy_of_Cube1_auv_3'
+[2016.01.23-03.18.25:606][260]LogTexture:Display: Building textures: Copy_of_Cube1_auv_3 (AutoDXT)
+[2016.01.23-03.18.25:706][260]LogMaterial: Missing cached shader map for material Cube1_auv6, compiling. 
+[2016.01.23-03.18.25:718][260]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv4
+[2016.01.23-03.18.25:736][260]LogFbx:Warning: Triangulating static mesh Cube1_default
+[2016.01.23-03.18.25:749][260]LogStaticMesh: Building static mesh Remus...
+[2016.01.23-03.18.25:829][260]LogStaticMesh: Built static mesh [0.080081.2s] /Game/Models/Remus.Remus
+[2016.01.23-03.18.25:862][260]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.01.23-03.18.30:686][525]LogActorFactory: Actor Factory created Remus
+[2016.01.23-03.18.31:636][602]LogActorFactory: Actor Factory created Remus
+[2016.01.23-03.19.50:123][644]LogEditorFactories: Performing atomic reimport of [D:/../Unreal Projects/Remus.obj]
+[2016.01.23-03.19.50:219][644]LogFbx: Loading FBX Scene from D:/../Unreal Projects/Remus.obj
+[2016.01.23-03.19.50:276][644]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.23-03.19.50:317][644]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv
+[2016.01.23-03.19.50:453][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv2Mat'
+[2016.01.23-03.19.50:453][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv2Mat'
+[2016.01.23-03.19.50:472][644]LogMaterial: Missing cached shader map for material Cube1_Cube1_auv2Mat, compiling. 
+[2016.01.23-03.19.50:481][644]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv2
+[2016.01.23-03.19.50:487][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv3Mat'
+[2016.01.23-03.19.50:487][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv3Mat'
+[2016.01.23-03.19.50:520][644]LogMaterial: Missing cached shader map for material Cube1_Cube1_auv3Mat, compiling. 
+[2016.01.23-03.19.50:533][644]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv3
+[2016.01.23-03.19.50:705][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv4Mat'
+[2016.01.23-03.19.50:705][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_Cube1_auv4Mat'
+[2016.01.23-03.19.50:713][644]LogMaterial: Missing cached shader map for material Cube1_Cube1_auv4Mat, compiling. 
+[2016.01.23-03.19.50:725][644]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv4
+[2016.01.23-03.19.50:732][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_defaultMat'
+[2016.01.23-03.19.50:733][644]LogLinker:Warning: Can't find file '/Game/Models/Cube1_defaultMat'
+[2016.01.23-03.19.50:739][644]LogMaterial: Missing cached shader map for material Cube1_defaultMat, compiling. 
+[2016.01.23-03.19.50:752][644]LogFbx:Warning: Triangulating static mesh Cube1_default
+[2016.01.23-03.19.50:787][644]LogStaticMesh: Building static mesh Remus...
+[2016.01.23-03.19.50:847][644]LogStaticMesh: Built static mesh [0.059625.2s] /Game/Models/Remus.Remus
+[2016.01.23-03.19.50:866][644]LogEditorFactories: -- imported successfully
+[2016.01.23-03.20.51:129][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/Desert" FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.23-03.20.51:890][828]LogSavePackage: Save=564.384583ms
+[2016.01.23-03.20.51:890][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Desert9E63BBC449B35C40BBE3F38A1836CC46.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap'
+[2016.01.23-03.20.51:916][828]LogSavePackage: Total save time: 767.244656ms
+[2016.01.23-03.20.51:916][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap
+[2016.01.23-03.20.51:975][828]LogFileHelpers: Saving map 'Desert' took 0.935
+[2016.01.23-03.20.52:025][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Remus" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset" SILENT=true
+[2016.01.23-03.20.52:062][828]LogSavePackage: Save=36.248966ms
+[2016.01.23-03.20.52:062][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Remus935EC24942BC88304C0B16BA54646E3C.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset'
+[2016.01.23-03.20.52:064][828]LogSavePackage: Total save time: 38.421873ms
+[2016.01.23-03.20.52:064][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset
+[2016.01.23-03.20.52:108][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_auv3" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv3.uasset" SILENT=true
+[2016.01.23-03.20.52:125][828]LogSavePackage: Save=14.932119ms
+[2016.01.23-03.20.52:125][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_auv3A7E102134DE348D01F7FDB978362C9D8.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv3.uasset'
+[2016.01.23-03.20.52:127][828]LogSavePackage: Total save time: 16.957574ms
+[2016.01.23-03.20.52:127][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv3.uasset
+[2016.01.23-03.20.52:146][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_auv4" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv4.uasset" SILENT=true
+[2016.01.23-03.20.52:184][828]LogSavePackage: Save=36.161781ms
+[2016.01.23-03.20.52:184][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_auv4D1F4E92942A651B40FC625A23EE6362E.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv4.uasset'
+[2016.01.23-03.20.52:188][828]LogSavePackage: Total save time: 40.251307ms
+[2016.01.23-03.20.52:188][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv4.uasset
+[2016.01.23-03.20.52:229][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_auv5" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv5.uasset" SILENT=true
+[2016.01.23-03.20.52:245][828]LogSavePackage: Save=15.187532ms
+[2016.01.23-03.20.52:245][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_auv5C7690754421C8384E674E4AB478A8B2A.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv5.uasset'
+[2016.01.23-03.20.52:247][828]LogSavePackage: Total save time: 17.389111ms
+[2016.01.23-03.20.52:247][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv5.uasset
+[2016.01.23-03.20.52:275][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Copy_of_Cube1_auv_2" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_2.uasset" SILENT=true
+[2016.01.23-03.20.52:299][828]LogSavePackage: Save=22.023691ms
+[2016.01.23-03.20.52:299][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Copy_of_Cube1_auv_2FD2FA869492BC9FAA436DB8C4FFE7BDF.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_2.uasset'
+[2016.01.23-03.20.52:300][828]LogSavePackage: Total save time: 24.062019ms
+[2016.01.23-03.20.52:300][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_2.uasset
+[2016.01.23-03.20.52:331][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_auv6" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv6.uasset" SILENT=true
+[2016.01.23-03.20.52:348][828]LogSavePackage: Save=14.884138ms
+[2016.01.23-03.20.52:348][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_auv62A410BA94D2EF8D39453CE94C8DEA44C.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv6.uasset'
+[2016.01.23-03.20.52:350][828]LogSavePackage: Total save time: 17.000582ms
+[2016.01.23-03.20.52:350][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_auv6.uasset
+[2016.01.23-03.20.52:370][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Copy_of_Cube1_auv_3" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_3.uasset" SILENT=true
+[2016.01.23-03.20.52:393][828]LogSavePackage: Save=22.067577ms
+[2016.01.23-03.20.52:393][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Copy_of_Cube1_auv_3DBA2AA5D4F927B0A45D7DFA5FDCE84B6.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_3.uasset'
+[2016.01.23-03.20.52:395][828]LogSavePackage: Total save time: 24.107657ms
+[2016.01.23-03.20.52:395][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Copy_of_Cube1_auv_3.uasset
+[2016.01.23-03.20.52:425][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_Cube1_auv2Mat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv2Mat.uasset" SILENT=true
+[2016.01.23-03.20.52:456][828]LogSavePackage: Save=15.244290ms
+[2016.01.23-03.20.52:456][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_Cube1_auv2Mat45734D874B8C9D20826DB9A2EEC65893.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv2Mat.uasset'
+[2016.01.23-03.20.52:458][828]LogSavePackage: Total save time: 17.317433ms
+[2016.01.23-03.20.52:458][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv2Mat.uasset
+[2016.01.23-03.20.52:488][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_Cube1_auv3Mat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv3Mat.uasset" SILENT=true
+[2016.01.23-03.20.52:506][828]LogSavePackage: Save=15.926268ms
+[2016.01.23-03.20.52:506][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_Cube1_auv3MatA7233A0D4A4058DAAB694DB7EAFB337E.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv3Mat.uasset'
+[2016.01.23-03.20.52:508][828]LogSavePackage: Total save time: 18.269449ms
+[2016.01.23-03.20.52:508][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv3Mat.uasset
+[2016.01.23-03.20.52:548][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_Cube1_auv4Mat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv4Mat.uasset" SILENT=true
+[2016.01.23-03.20.52:568][828]LogSavePackage: Save=18.609415ms
+[2016.01.23-03.20.52:568][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_Cube1_auv4Mat33518DF749A950A0404741A3447F4B55.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv4Mat.uasset'
+[2016.01.23-03.20.52:570][828]LogSavePackage: Total save time: 20.557340ms
+[2016.01.23-03.20.52:570][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_Cube1_auv4Mat.uasset
+[2016.01.23-03.20.52:605][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_defaultMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_defaultMat.uasset" SILENT=true
+[2016.01.23-03.20.52:624][828]LogSavePackage: Save=16.452599ms
+[2016.01.23-03.20.52:624][828]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_defaultMat5E67E4A34E75FB25F7E409B6FB0267E9.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_defaultMat.uasset'
+[2016.01.23-03.20.52:626][828]LogSavePackage: Total save time: 18.959619ms
+[2016.01.23-03.20.52:626][828]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_defaultMat.uasset
+[2016.01.23-03.22.42:744][522]LogEditorFactories: Performing atomic reimport of [D:/../../Unreal Projects/Remus.obj]
+[2016.01.23-03.22.42:837][522]LogFbx: Loading FBX Scene from D:/../../Unreal Projects/Remus.obj
+[2016.01.23-03.22.42:892][522]LogFbx: FBX Scene Loaded Succesfully
+[2016.01.23-03.22.42:917][522]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv
+[2016.01.23-03.22.43:048][522]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv2
+[2016.01.23-03.22.43:052][522]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv3
+[2016.01.23-03.22.43:198][522]LogFbx:Warning: Triangulating static mesh Cube1_Cube1_auv4
+[2016.01.23-03.22.43:203][522]LogFbx:Warning: Triangulating static mesh Cube1_default
+[2016.01.23-03.22.43:227][522]LogStaticMesh: Building static mesh Remus...
+[2016.01.23-03.22.43:294][522]LogStaticMesh: Built static mesh [0.067117.2s] /Game/Models/Remus.Remus
+[2016.01.23-03.22.43:307][522]LogEditorFactories: -- imported successfully
+[2016.01.23-03.23.48:675][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/Desert" FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.23-03.23.49:204][951]LogSavePackage: Save=499.006592ms
+[2016.01.23-03.23.49:204][951]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Desert43915FA04DD0CDAD35DAC09121AFA5F3.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap'
+[2016.01.23-03.23.49:207][951]LogSavePackage: Total save time: 511.332791ms
+[2016.01.23-03.23.49:207][951]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap
+[2016.01.23-03.23.49:245][951]LogFileHelpers: Saving map 'Desert' took 0.662
+[2016.01.23-03.23.49:277][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Remus" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset" SILENT=true
+[2016.01.23-03.23.49:305][951]LogSavePackage: Save=14.682266ms
+[2016.01.23-03.23.49:305][951]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/RemusD318054D4C367DCF1F86FCB8DADFDBE3.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset'
+[2016.01.23-03.23.49:307][951]LogSavePackage: Total save time: 28.325621ms
+[2016.01.23-03.23.49:307][951]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Remus.uasset
+[2016.01.23-03.23.51:678][157]MapCheck: New page: Map Check
+[2016.01.23-03.23.51:897][157]Cmd: MAP REBUILD ALLVISIBLE
+[2016.01.23-03.23.51:897][157]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.01.23-03.23.52:105][157]LightingResults: New page: Lighting Build - Jan 22, 2016, 1:23:52 PM
+[2016.01.23-03.23.56:689][157]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2016.01.23-03.23.56:689][157]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.01.23-03.23.56:689][157]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.01.23-03.23.56:689][157]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.01.23-03.23.56:689][157]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.01.23-03.23.56:689][157]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.01.23-03.23.56:894][157]LogEditorBuildUtils: Build time 0:00:05
+[2016.01.23-03.23.56:937][158]Cmd: UpdateLandscapeEditorData
+[2016.01.23-03.23.57:038][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep10_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:042][160]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep10_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:071][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep11_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:077][161]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep11_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:112][162]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep12_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:118][162]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep12_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:151][163]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep13_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:157][163]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep13_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:186][164]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep14_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:192][164]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep14_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:220][165]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep15_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:225][165]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep15_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:248][166]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep16_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:255][166]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep16_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:282][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep17_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:288][167]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep17_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:313][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep18_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:320][168]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep18_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:347][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep19_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:352][169]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep19_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:379][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep20_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:386][170]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep20_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:412][171]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep21_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:418][171]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep21_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:446][172]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep22_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:453][172]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep22_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:480][173]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep3_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:486][173]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep3_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:514][174]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep4_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:520][174]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep4_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:547][175]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep5_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:553][175]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep5_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:581][176]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep6_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:587][176]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep6_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:616][177]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep7_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:622][177]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep7_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:649][178]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep8_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:655][178]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep8_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:683][179]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep9_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:689][179]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Cube1_sep9_Cube1_auvMat, compiling. 
+[2016.01.23-03.23.57:797][182]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer default, compiling. 
+[2016.01.23-03.23.57:803][182]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer default, compiling. 
+[2016.01.23-03.24.33:028][313]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.33:028][313]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.24.41:031][337]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.41:031][337]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.24.42:365][341]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.42:365][341]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.24.43:365][344]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.43:365][344]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.24.43:365][344]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.43:365][344]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.24.43:699][345]LightingResults:Error: Error AR Object has overlapping UVs.
+[2016.01.23-03.24.43:699][345]LightingResults: Info AR Lightmap UV are overlapping by 20.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.07:713][417]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.07:713][417]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.08:380][419]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.08:380][419]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.28:390][479]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.28:390][479]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.32:726][492]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.32:726][492]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.33:059][493]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.33:059][493]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.38:062][508]LightingResults:Error: Error SR Object has overlapping UVs.
+[2016.01.23-03.25.38:062][508]LightingResults: Info SR Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.55:406][560]LightingResults:Error: Error Speeder Object has overlapping UVs.
+[2016.01.23-03.25.55:406][560]LightingResults: Info Speeder Lightmap UV are overlapping by 1.9%. Please adjust content - Enable Error Coloring to visualize.
+[2016.01.23-03.25.55:739][561]Job is a success!
+[2016.01.23-03.25.56:404][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep10_Cube1_auvMat.Cube1_sep10_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:407][562]LogMaterial: Missing cached shader map for material Cube1_sep10_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:418][562]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:418][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep11_Cube1_auvMat.Cube1_sep11_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:420][562]LogMaterial: Missing cached shader map for material Cube1_sep11_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:431][562]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:431][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep12_Cube1_auvMat.Cube1_sep12_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:434][562]LogMaterial: Missing cached shader map for material Cube1_sep12_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:445][562]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:445][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep13_Cube1_auvMat.Cube1_sep13_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:447][562]LogMaterial: Missing cached shader map for material Cube1_sep13_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:459][562]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:459][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep14_Cube1_auvMat.Cube1_sep14_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:461][562]LogMaterial: Missing cached shader map for material Cube1_sep14_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:475][562]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:475][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep15_Cube1_auvMat.Cube1_sep15_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:478][562]LogMaterial: Missing cached shader map for material Cube1_sep15_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:493][562]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:493][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep16_Cube1_auvMat.Cube1_sep16_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:496][562]LogMaterial: Missing cached shader map for material Cube1_sep16_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:510][562]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:510][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep17_Cube1_auvMat.Cube1_sep17_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:513][562]LogMaterial: Missing cached shader map for material Cube1_sep17_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:526][562]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:527][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep18_Cube1_auvMat.Cube1_sep18_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:529][562]LogMaterial: Missing cached shader map for material Cube1_sep18_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:542][562]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:543][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep19_Cube1_auvMat.Cube1_sep19_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:545][562]LogMaterial: Missing cached shader map for material Cube1_sep19_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:560][562]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:560][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep20_Cube1_auvMat.Cube1_sep20_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:562][562]LogMaterial: Missing cached shader map for material Cube1_sep20_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:576][562]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:576][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep21_Cube1_auvMat.Cube1_sep21_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:578][562]LogMaterial: Missing cached shader map for material Cube1_sep21_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:592][562]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:592][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep22_Cube1_auvMat.Cube1_sep22_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:594][562]LogMaterial: Missing cached shader map for material Cube1_sep22_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:605][562]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:605][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep3_Cube1_auvMat.Cube1_sep3_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:607][562]LogMaterial: Missing cached shader map for material Cube1_sep3_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:620][562]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:620][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep4_Cube1_auvMat.Cube1_sep4_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:622][562]LogMaterial: Missing cached shader map for material Cube1_sep4_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:633][562]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:634][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep5_Cube1_auvMat.Cube1_sep5_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:638][562]LogMaterial: Missing cached shader map for material Cube1_sep5_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:649][562]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:649][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep6_Cube1_auvMat.Cube1_sep6_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:651][562]LogMaterial: Missing cached shader map for material Cube1_sep6_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:672][562]LogMaterial: 0.000181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:672][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep7_Cube1_auvMat.Cube1_sep7_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:675][562]LogMaterial: Missing cached shader map for material Cube1_sep7_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:688][562]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:688][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep8_Cube1_auvMat.Cube1_sep8_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:690][562]LogMaterial: Missing cached shader map for material Cube1_sep8_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:704][562]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:704][562]LogMaterial:Warning: Material /Game/Models/Cube1_sep9_Cube1_auvMat.Cube1_sep9_Cube1_auvMat needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:707][562]LogMaterial: Missing cached shader map for material Cube1_sep9_Cube1_auvMat, compiling. 
+[2016.01.23-03.25.56:722][562]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.56:725][562]LogMaterial:Warning: Material /Game/Models/default.default needed to have new flag set bUsedWithStaticLighting !
+[2016.01.23-03.25.56:730][562]LogMaterial: Missing cached shader map for material default, compiling. 
+[2016.01.23-03.25.56:745][562]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.01.23-03.25.57:054][562]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.01.23-03.25.57:594][562]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.01.23-03.25.57:594][562]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.01.23-03.25.57:595][562]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.01.23-03.25.57:645][562]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.01.23-03.25.57:713][562]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.01.23-03.25.57:755][562]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.01.23-03.25.57:850][562]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.01.23-03.25.57:861][562]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.01.23-03.25.57:886][562]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.01.23-03.25.57:902][562]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.01.23-03.25.57:927][562]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.01.23-03.25.57:942][562]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.01.23-03.25.57:966][562]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.01.23-03.25.57:982][562]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.01.23-03.25.58:006][562]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.01.23-03.25.58:022][562]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.01.23-03.25.58:042][562]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.01.23-03.25.58:057][562]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.01.23-03.25.58:081][562]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.01.23-03.25.58:097][562]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.01.23-03.25.58:122][562]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.01.23-03.25.58:138][562]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.01.23-03.25.58:162][562]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.01.23-03.25.58:178][562]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.01.23-03.25.58:202][562]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.01.23-03.25.58:219][562]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.01.23-03.25.58:243][562]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.01.23-03.25.58:254][562]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.01.23-03.25.58:272][562]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.01.23-03.25.58:284][562]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.01.23-03.25.58:302][562]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.01.23-03.25.58:314][562]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.01.23-03.25.58:339][562]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.01.23-03.25.58:353][562]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.01.23-03.25.58:377][562]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.01.23-03.25.58:385][562]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.01.23-03.25.58:409][562]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.01.23-03.25.58:423][562]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.01.23-03.25.58:449][562]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.01.23-03.25.58:474][562]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.01.23-03.25.58:516][562]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.01.23-03.25.58:542][562]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.01.23-03.25.58:562][562]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.01.23-03.25.58:583][562]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.01.23-03.25.58:602][562]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.01.23-03.25.58:621][562]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.01.23-03.25.58:641][562]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.01.23-03.25.58:661][562]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.01.23-03.25.58:681][562]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.01.23-03.25.58:765][562]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.01.23-03.25.58:890][562]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.01.23-03.25.58:916][562]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.01.23-03.25.58:939][562]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.01.23-03.25.58:957][562]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.01.23-03.25.58:976][562]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.01.23-03.25.58:991][562]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.01.23-03.25.59:017][562]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.01.23-03.25.59:352][562]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.01.23-03.25.59:356][562]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.01.23-03.25.59:361][562]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.01.23-03.25.59:424][562]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.01.23-03.25.59:435][562]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.01.23-03.25.59:440][562]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.01.23-03.25.59:444][562]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2016.01.23-03.25.59:448][562]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.01.23-03.25.59:455][562]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2016.01.23-03.25.59:459][562]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.01.23-03.25.59:464][562]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.01.23-03.25.59:469][562]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.01.23-03.25.59:474][562]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.01.23-03.25.59:478][562]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.01.23-03.25.59:483][562]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.01.23-03.25.59:488][562]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.01.23-03.25.59:492][562]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2016.01.23-03.25.59:497][562]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2016.01.23-03.25.59:501][562]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2016.01.23-03.25.59:506][562]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8)
+[2016.01.23-03.25.59:511][562]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2016.01.23-03.25.59:516][562]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8)
+[2016.01.23-03.25.59:522][562]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8)
+[2016.01.23-03.25.59:527][562]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2016.01.23-03.25.59:531][562]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2016.01.23-03.25.59:549][562]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8)
+[2016.01.23-03.25.59:567][562]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2016.01.23-03.25.59:573][562]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2016.01.23-03.25.59:574][562]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8)
+[2016.01.23-03.25.59:633][562]Lightmass on DESKTOP-D4B59PR: 1:54 min total, 371 ms importing, 311 ms setup, 15.4 sec photons, 1:37 min processing, 0 ms extra exporting [89/89 mappings]. Threads: 11:25 min total, 9:09 min processing.
+[2016.01.23-03.25.59:680][562]LogStaticLightingSystem: Illumination: 2:07 min (2.78 sec encoding lightmaps)
+[2016.01.23-03.25.59:680][562]LogStaticLightingSystem: Lightmap texture memory:  2.3 MB (2.3 MB streaming, 0.0 MB non-streaming), 58 textures
+[2016.01.23-03.25.59:680][562]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 29 textures
+[2016.01.23-03.26.00:753][563]Cmd: UpdateLandscapeEditorData
+[2016.01.23-03.26.00:753][563]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.01.23-03.26.00:753][563]MapCheck: New page: Desert - Jan 22, 2016, 1:26:00 PM
+[2016.01.23-03.26.00:829][563]MapCheck:Error: Error Blade_X12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:829][563]MapCheck:Warning: Warning Blade_X12 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:829][563]MapCheck:Warning: Warning Blade_X12 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Error: Error Blade_X11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning Blade_X11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning Blade_X11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Error: Error Blade_X10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning Blade_X10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning Blade_X10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Error: Error AR_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning AR_4 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:830][563]MapCheck:Warning: Warning AR_4 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:886][563]MapCheck:Error: Error AR3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:886][563]MapCheck:Warning: Warning AR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:886][563]MapCheck:Warning: Warning AR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:886][563]MapCheck:Error: Error AR2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:886][563]MapCheck:Warning: Warning AR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:886][563]MapCheck:Warning: Warning AR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:886][563]MapCheck:Warning: Warning Blade_X13 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X14 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X15 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Error: Error Blade_X2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:887][563]MapCheck:Error: Error Blade_X3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X4_17 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X5 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Warning: Warning Blade_X6 1 element(s) with zero triangles in static mesh 'Blade_X' 
+[2016.01.23-03.26.00:887][563]MapCheck:Error: Error Blade_X7_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X7_16 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X7_16 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Error: Error Blade_X8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X8 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X8 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Error: Error Blade_X9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Error: Error Blade_X_21 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X_21 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:888][563]MapCheck:Warning: Warning Blade_X_21 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Error: Error Crystal_11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Crystal_11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Crystal_11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Error: Error Gladius10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Error: Error Gladius11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius11 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Error: Error Gladius12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius12 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Warning: Warning Gladius12 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:889][563]MapCheck:Error: Error Gladius13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius13 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius13 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Error: Error Gladius2_18 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius2_18 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius2_18 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Error: Error Gladius3_13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius3_13 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius3_13 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Error: Error Gladius4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius4 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius4 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:890][563]MapCheck:Error: Error Gladius5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:890][563]MapCheck:Warning: Warning Gladius5 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius5 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Error: Error Gladius8_28 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius8_28 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius8_28 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Error: Error Gladius9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Error: Error Gladius_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:891][563]MapCheck:Warning: Warning Gladius_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Error: Error Glaive2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Error: Error Glaive3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Error: Error Glaive4_24 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive4_24 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive4_24 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Error: Error Glaive5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive5 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive5 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Error: Error Glaive6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive6 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:892][563]MapCheck:Warning: Warning Glaive6 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Error: Error Glaive7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive7 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive7 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Error: Error Glaive8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive8 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive8 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Error: Error Glaive9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Error: Error Glaive_19 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive_19 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:893][563]MapCheck:Warning: Warning Glaive_19 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning House_Dome_31 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'House_Dome' 
+[2016.01.23-03.26.00:894][563]MapCheck:Error: Error MAt_Test_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning MAt_Test_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning MAt_Test_10 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Error: Error pistol2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning pistol2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning pistol2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Error: Error pistol3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning pistol3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning pistol3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:894][563]MapCheck:Error: Error pistol_9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:894][563]MapCheck:Warning: Warning pistol_9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning pistol_9 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Error: Error SR2 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR2 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Error: Error SR3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR3 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Error: Error SR_14 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR_14 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.00:895][563]MapCheck:Warning: Warning SR_14 Static mesh actor has NULL StaticMesh property 
+[2016.01.23-03.26.01:043][563]MapCheck: Info Map check complete: 40 Error(s), 87 Warning(s), took 289.963ms to complete.
+[2016.01.23-03.28.19:566][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.23-03.28.19:602][282]PIE: New page: PIE session: Desert (Jan 22, 2016, 1:28:19 PM)
+[2016.01.23-03.28.19:643][282]LogPlayLevel: Creating play world package: /Game/Collections/UEDPIE_0_Desert
+[2016.01.23-03.28.19:700][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057064s)
+[2016.01.23-03.28.19:702][282]LogAIModule: Creating AISystem for world Desert
+[2016.01.23-03.28.19:702][282]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2016.01.23-03.28.19:711][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Collections/Desert.Desert to /Game/Collections/UEDPIE_0_Desert.Desert (0.090497s)
+[2016.01.23-03.28.19:760][282]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.23-03.28.19:768][282]LogInit: FAudioDevice initialized.
+[2016.01.23-03.28.19:949][282]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.01.23-03.28.20:115][282]LogWorld: Bringing World /Game/Collections/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2016.01.22-20.28.20
+[2016.01.23-03.28.20:115][282]LogActor:Warning: GameSession /Game/Collections/UEDPIE_0_Desert.Desert:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-03.28.20:116][282]LogActor:Warning: GameNetworkManager /Game/Collections/UEDPIE_0_Desert.Desert:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.23-03.28.20:122][282]LogWorld: Bringing up level for play took: 0.020053
+[2016.01.23-03.28.20:343][282]PIE: Info Play in editor start time for /Game/Collections/UEDPIE_0_Desert 0.299
+[2016.01.23-03.28.36:024][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F7141ACA0
+[2016.01.23-03.28.39:835][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collections/Desert" FILE="../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.23-03.28.40:446][ 78]LogSavePackage: Save=531.043152ms
+[2016.01.23-03.28.40:446][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Desert178DE92442B3F9BC637FED9DE312DAA0.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap'
+[2016.01.23-03.28.40:451][ 78]LogSavePackage: Total save time: 596.713692ms
+[2016.01.23-03.28.40:451][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Collections/Desert.umap
+[2016.01.23-03.28.40:493][ 78]LogFileHelpers: Saving map 'Desert' took 0.747
+[2016.01.23-03.28.40:525][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep10_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep10_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:580][ 78]LogSavePackage: Save=36.347561ms
+[2016.01.23-03.28.40:580][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep10_Cube1_auvMatB6BD573C401208AC19379D9F4D0A50FC.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep10_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:597][ 78]LogSavePackage: Total save time: 69.947023ms
+[2016.01.23-03.28.40:597][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep10_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:631][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep11_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep11_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:665][ 78]LogSavePackage: Save=17.675829ms
+[2016.01.23-03.28.40:665][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep11_Cube1_auvMat9FE9B99A4E1E2F85C085A98D215247AD.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep11_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:667][ 78]LogSavePackage: Total save time: 34.551192ms
+[2016.01.23-03.28.40:667][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep11_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:699][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep12_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep12_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:728][ 78]LogSavePackage: Save=15.482734ms
+[2016.01.23-03.28.40:729][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep12_Cube1_auvMat8594214541B3CBAD9E561CB4F4A30964.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep12_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:730][ 78]LogSavePackage: Total save time: 29.589515ms
+[2016.01.23-03.28.40:730][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep12_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:769][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep13_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep13_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:799][ 78]LogSavePackage: Save=17.159445ms
+[2016.01.23-03.28.40:799][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep13_Cube1_auvMatE19C901F46C549EEDBD894B9304D87D1.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep13_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:801][ 78]LogSavePackage: Total save time: 30.098882ms
+[2016.01.23-03.28.40:801][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep13_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:834][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep14_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep14_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:880][ 78]LogSavePackage: Save=33.527493ms
+[2016.01.23-03.28.40:880][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep14_Cube1_auvMatBCCAFC0145377D60654794B64C2C5661.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep14_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:882][ 78]LogSavePackage: Total save time: 47.244575ms
+[2016.01.23-03.28.40:882][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep14_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:919][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep15_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep15_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.40:949][ 78]LogSavePackage: Save=18.019596ms
+[2016.01.23-03.28.40:949][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep15_Cube1_auvMat359EC4F14E7476F575DEA29EE7B4EBFD.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep15_Cube1_auvMat.uasset'
+[2016.01.23-03.28.40:952][ 78]LogSavePackage: Total save time: 31.905200ms
+[2016.01.23-03.28.40:952][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep15_Cube1_auvMat.uasset
+[2016.01.23-03.28.40:986][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep16_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep16_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:015][ 78]LogSavePackage: Save=15.066116ms
+[2016.01.23-03.28.41:015][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep16_Cube1_auvMatC195FCA84611C7A585A7A990AB45AF10.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep16_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:017][ 78]LogSavePackage: Total save time: 29.089224ms
+[2016.01.23-03.28.41:017][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep16_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:047][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep17_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep17_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:090][ 78]LogSavePackage: Save=15.437093ms
+[2016.01.23-03.28.41:090][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep17_Cube1_auvMatCCB83A4C44F27DF321B81683CC4ACEE4.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep17_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:092][ 78]LogSavePackage: Total save time: 43.043289ms
+[2016.01.23-03.28.41:092][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep17_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:126][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep18_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep18_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:156][ 78]LogSavePackage: Save=15.176707ms
+[2016.01.23-03.28.41:156][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep18_Cube1_auvMatC71DA86145590E680E4C1B9274307567.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep18_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:165][ 78]LogSavePackage: Total save time: 37.401687ms
+[2016.01.23-03.28.41:165][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep18_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:200][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep19_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep19_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:228][ 78]LogSavePackage: Save=15.496778ms
+[2016.01.23-03.28.41:228][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep19_Cube1_auvMatF38BF31F499E078F94F8A5A9D89531C7.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep19_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:236][ 78]LogSavePackage: Total save time: 35.185773ms
+[2016.01.23-03.28.41:236][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep19_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:272][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep20_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep20_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:302][ 78]LogSavePackage: Save=16.571383ms
+[2016.01.23-03.28.41:302][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep20_Cube1_auvMat36474A8147354983B2CAEEAD957EF28C.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep20_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:304][ 78]LogSavePackage: Total save time: 30.696012ms
+[2016.01.23-03.28.41:304][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep20_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:337][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep21_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep21_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:371][ 78]LogSavePackage: Save=18.815090ms
+[2016.01.23-03.28.41:371][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep21_Cube1_auvMat14D9BD6B416F9926E9A2839E5BEAC227.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep21_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:373][ 78]LogSavePackage: Total save time: 33.603854ms
+[2016.01.23-03.28.41:373][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep21_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:406][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep22_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep22_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:442][ 78]LogSavePackage: Save=21.653008ms
+[2016.01.23-03.28.41:442][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep22_Cube1_auvMatCAF24E0C472632F5D86D3A9006D68C1D.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep22_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:444][ 78]LogSavePackage: Total save time: 36.329713ms
+[2016.01.23-03.28.41:444][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep22_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:478][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep3_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep3_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:507][ 78]LogSavePackage: Save=15.277643ms
+[2016.01.23-03.28.41:507][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep3_Cube1_auvMat770C0BC447FA2B50A0D91B9675D4F835.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep3_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:517][ 78]LogSavePackage: Total save time: 37.431527ms
+[2016.01.23-03.28.41:517][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep3_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:546][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep4_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep4_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:576][ 78]LogSavePackage: Save=15.416906ms
+[2016.01.23-03.28.41:576][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep4_Cube1_auvMat397DE70F474E0D7616B9CA8E53915F45.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep4_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:578][ 78]LogSavePackage: Total save time: 30.301340ms
+[2016.01.23-03.28.41:578][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep4_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:612][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep5_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep5_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:650][ 78]LogSavePackage: Save=22.135452ms
+[2016.01.23-03.28.41:650][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep5_Cube1_auvMatD79BF9D94C708C19E039F698AC49D596.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep5_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:654][ 78]LogSavePackage: Total save time: 40.182553ms
+[2016.01.23-03.28.41:654][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep5_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:685][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep6_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep6_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:715][ 78]LogSavePackage: Save=16.861317ms
+[2016.01.23-03.28.41:715][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep6_Cube1_auvMat6BA521D6460C993EB27632A75A19F6CB.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep6_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:717][ 78]LogSavePackage: Total save time: 30.809529ms
+[2016.01.23-03.28.41:717][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep6_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:752][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep7_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep7_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:789][ 78]LogSavePackage: Save=20.428022ms
+[2016.01.23-03.28.41:789][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep7_Cube1_auvMatF3DB31424C84140087B378B51B649336.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep7_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:791][ 78]LogSavePackage: Total save time: 37.558794ms
+[2016.01.23-03.28.41:791][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep7_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:825][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep8_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep8_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:863][ 78]LogSavePackage: Save=15.369802ms
+[2016.01.23-03.28.41:863][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep8_Cube1_auvMat47B09BBF4738BEB249CD0F89351B7AE7.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep8_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:865][ 78]LogSavePackage: Total save time: 39.124332ms
+[2016.01.23-03.28.41:865][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep8_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:895][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Cube1_sep9_Cube1_auvMat" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep9_Cube1_auvMat.uasset" SILENT=true
+[2016.01.23-03.28.41:928][ 78]LogSavePackage: Save=19.818016ms
+[2016.01.23-03.28.41:928][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/Cube1_sep9_Cube1_auvMatDBE8E390497CE3D0EF3C2D969E69873E.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep9_Cube1_auvMat.uasset'
+[2016.01.23-03.28.41:930][ 78]LogSavePackage: Total save time: 34.187526ms
+[2016.01.23-03.28.41:930][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/Cube1_sep9_Cube1_auvMat.uasset
+[2016.01.23-03.28.41:963][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/default" FILE="../../../../../Unreal Projects/Wayfarer/Content/Models/default.uasset" SILENT=true
+[2016.01.23-03.28.41:996][ 78]LogSavePackage: Save=17.729368ms
+[2016.01.23-03.28.41:996][ 78]LogSavePackage: Moving '../../../../../Unreal Projects/Wayfarer/Saved/defaultC50EE403485B5F5187A6428BFCCC5674.tmp' to '../../../../../Unreal Projects/Wayfarer/Content/Models/default.uasset'
+[2016.01.23-03.28.41:998][ 78]LogSavePackage: Total save time: 33.998821ms
+[2016.01.23-03.28.41:998][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Wayfarer/Content/Models/default.uasset
+[2016.01.23-03.28.42:637][ 79]Cmd: QUIT_EDITOR
+[2016.01.23-03.28.43:082][ 79]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.23-03.28.43:208][ 79]LogExit: Preparing to exit.
+[2016.01.23-03.28.44:248][ 79]LogExit: Editor shut down
+[2016.01.23-03.28.44:248][ 79]LogExit: Transaction tracking system shut down
+[2016.01.23-03.28.44:368][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F120F3600
+[2016.01.23-03.28.44:371][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F1EB12340
+[2016.01.23-03.28.46:726][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F018FCC20
+[2016.01.23-03.28.46:726][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007F29C5EE80
+[2016.01.23-03.28.46:726][ 79]LogExit: Object subsystem successfully closed.
+[2016.01.23-03.28.46:968][ 79]LogD3D11RHI: Shutdown
+[2016.01.23-03.28.46:978][ 79]LogD3D11RHI: CleanupD3DDevice
+[2016.01.23-03.28.47:288][ 79]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.23-03.28.48:060][ 79]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.01.23-03.28.48:060][ 79]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.23-03.28.48:060][ 79]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.23-03.28.48:060][ 79]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.23-03.28.48:060][ 79]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.23-03.28.48:067][ 79]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.23-03.28.48:092][ 79]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.23-03.28.48:092][ 79]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.23-03.28.48:135][ 79]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.23-03.28.48:149][ 79]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.23-03.28.48:149][ 79]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.23-03.28.48:171][ 79]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.23-03.28.48:171][ 79]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.23-03.28.48:171][ 79]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.23-03.28.48:171][ 79]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.23-03.28.48:172][ 79]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.23-03.28.48:197][ 79]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.23-03.28.48:243][ 79]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.23-03.28.48:262][ 79]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.23-03.28.48:262][ 79]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.23-03.28.48:276][ 79]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.23-03.28.48:276][ 79]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.23-03.28.49:096][ 79]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.23-03.28.49:096][ 79]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.23-03.28.49:096][ 79]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.23-03.28.49:096][ 79]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.23-03.28.49:107][ 79]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.23-03.28.49:108][ 79]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.23-03.28.49:145][ 79]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.23-03.28.49:145][ 79]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.23-03.28.49:151][ 79]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.23-03.28.49:173][ 79]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.23-03.28.49:180][ 79]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.23-03.28.49:205][ 79]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.23-03.28.49:216][ 79]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.23-03.28.49:225][ 79]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.23-03.28.49:225][ 79]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.23-03.28.49:225][ 79]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.23-03.28.49:225][ 79]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.23-03.28.49:237][ 79]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.23-03.28.49:238][ 79]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.23-03.28.49:257][ 79]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.23-03.28.49:257][ 79]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.23-03.28.49:257][ 79]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.23-03.28.49:262][ 79]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.23-03.28.49:270][ 79]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.23-03.28.49:271][ 79]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.23-03.28.49:271][ 79]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.23-03.28.49:284][ 79]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.23-03.28.49:294][ 79]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.23-03.28.49:313][ 79]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.23-03.28.49:349][ 79]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.23-03.28.49:349][ 79]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.23-03.28.49:349][ 79]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.23-03.28.49:349][ 79]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.23-03.28.49:410][ 79]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.23-03.28.49:433][ 79]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.23-03.28.49:476][ 79]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.23-03.28.49:483][ 79]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.23-03.28.49:483][ 79]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.23-03.28.49:495][ 79]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.23-03.28.49:507][ 79]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.23-03.28.49:507][ 79]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.23-03.28.49:520][ 79]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.23-03.28.49:561][ 79]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.23-03.28.49:588][ 79]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.23-03.28.49:588][ 79]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.23-03.28.49:759][ 79]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.23-03.28.49:771][ 79]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.23-03.28.49:814][ 79]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.23-03.28.49:814][ 79]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.23-03.28.49:822][ 79]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.23-03.28.49:822][ 79]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.23-03.28.49:835][ 79]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.23-03.28.49:848][ 79]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.23-03.28.49:848][ 79]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.23-03.28.49:848][ 79]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.23-03.28.49:855][ 79]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.23-03.28.49:863][ 79]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.23-03.28.49:883][ 79]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.23-03.28.49:883][ 79]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.23-03.28.49:883][ 79]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.23-03.28.49:900][ 79]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.23-03.28.49:918][ 79]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.23-03.28.49:932][ 79]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.23-03.28.49:954][ 79]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.23-03.28.49:954][ 79]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.23-03.28.49:954][ 79]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.23-03.28.49:954][ 79]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.23-03.28.49:954][ 79]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.23-03.28.49:975][ 79]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.23-03.28.49:984][ 79]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.23-03.28.49:984][ 79]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.23-03.28.49:998][ 79]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.23-03.28.50:005][ 79]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.23-03.28.50:145][ 79]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.23-03.28.50:146][ 79]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.23-03.28.50:161][ 79]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.23-03.28.50:261][ 79]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.23-03.28.50:261][ 79]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.23-03.28.50:282][ 79]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.23-03.28.50:295][ 79]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.23-03.28.50:295][ 79]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.23-03.28.50:306][ 79]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.23-03.28.50:306][ 79]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.23-03.28.50:306][ 79]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.23-03.28.50:306][ 79]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.23-03.28.50:324][ 79]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.23-03.28.50:324][ 79]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.23-03.28.50:344][ 79]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.23-03.28.50:344][ 79]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.23-03.28.50:344][ 79]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.23-03.28.50:375][ 79]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.23-03.28.50:402][ 79]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.23-03.28.50:424][ 79]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.23-03.28.50:440][ 79]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.23-03.28.50:440][ 79]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.23-03.28.50:445][ 79]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.23-03.28.50:446][ 79]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.23-03.28.50:446][ 79]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.23-03.28.50:446][ 79]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.23-03.28.50:460][ 79]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.23-03.28.50:559][ 79]LogDerivedDataCache: Shutdown
+[2016.01.23-03.28.50:559][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.23-03.28.50:588][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.23-03.28.50:588][ 79]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.23-03.28.50:615][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.23-03.28.50:627][ 79]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.23-03.28.50:628][ 79]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.23-03.28.51:631][ 79]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.23-03.28.51:654][ 79]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.23-03.28.51:669][ 79]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.23-03.28.51:669][ 79]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.23-03.28.51:669][ 79]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.23-03.28.51:669][ 79]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.23-03.28.51:669][ 79]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.23-03.28.51:685][ 79]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.23-03.28.51:702][ 79]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.23-03.28.51:703][ 79]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.23-03.28.51:710][ 79]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.23-03.28.51:710][ 79]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.23-03.28.51:710][ 79]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.23-03.28.51:710][ 79]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.23-03.28.51:735][ 79]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.23-03.28.51:735][ 79]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.23-03.28.51:749][ 79]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.23-03.28.51:762][ 79]LogExit: Exiting.
+[2016.01.23-03.28.51:787][ 79]Log file closed, 01/22/16 20:28:51
